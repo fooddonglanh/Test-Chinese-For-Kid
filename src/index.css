@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=ZCOOL+KuaiLe&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Nunito", ui-sans-serif, system-ui, sans-serif;
+  --font-chinese: "ZCOOL KuaiLe", cursive;
+}
+
+:root {
+  --color-primary: #FFD347;
+  --color-secondary: #8C71F6;
+  --color-accent: #0DB564;
+  --color-bg: #FFFAEB;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: #0D1216;
+  overflow-x: hidden;
+}
+
+.kid-shadow {
+  box-shadow: 0 4px 0 0 rgba(0,0,0,0.05);
+}
+
+.kid-card-shadow {
+  box-shadow: 2px 4px 0 0 #E7E7E7;
+}
+
+.text-stroke {
+  -webkit-text-stroke: 1px #000;
+}
